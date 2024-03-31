@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Request Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <h1>Reservation Request</h1>
+
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="arrivalDate">Arrival Date :</label>
+                <input type="date" id="arrivalDate" placeholder="Enter arrival date">
+                <br><br>
+                <label for="numberOfNights">Nights :</label>
+                <input type="number" id="numberOfNights" placeholder="Enter number of nights">
+                <br><br>
+                <label for="adults">Adults :</label>
+                <input type="number" id="adults" placeholder="Enter number of adults">
+                <br><br>
+                <label for="children">Children :</label>
+                <input type="number" id="children" placeholder="Enter number of children">
+                <br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label>Room Type :</label>
+                <input type="radio" id="StandardRoom" name="roomType">
+                <label for="StandardRoom">Standard</label>
+
+                <input type="radio" id="BusinessRoom" name="roomType">
+                <label for="BusinessRoom">Business</label>
+
+                <input type="radio" id="SuiteRoom" name="roomType">
+                <label for="SuiteRoom">Suite</label>
+                <br><br>
+
+                <label>Bed Type :</label>
+                <input type="radio" id="kingBed" name="bedType">
+                <label for="kingBed">King</label>
+
+                <input type="radio" id="doubleBed" name="bedType">
+                <label for="doubleBed">Double Double</label>
+                <br><br>
+
+                <input type="checkbox" id="smoking">
+                <label for="smoking">Smoking</label>
+                <br><br>
+
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <br><br>
+
+                <label for="emailAddress">Email :</label>
+                <input type="email" id="emailAddress" placeholder="Enter your email">
+                <br><br>
+
+                <label for="phone">Phone :</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+                <br><br>
+            </fieldset><br>
+
+            <button type="submit">Submit Request</button><br>
+            <p>&copy; Name: Vatsal Mistry &nbsp;Student Number: N01649202 &nbsp;2024</p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
